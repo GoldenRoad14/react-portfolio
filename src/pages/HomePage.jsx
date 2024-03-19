@@ -1,8 +1,8 @@
-export default function ResumePage() {
+export default function HomePage() {
     return (
       <div className="container pt-4">
         <p>
-          RESUME PAGE
+          HOME PAGE 
         </p>
         </div>
         )}

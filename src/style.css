@@ -1,0 +1,29 @@
+.body {
+    background-color: #DCC9C2;
+}
+
+/* About Page */
+
+.about-container {
+    display: flex;
+}
+
+.profile-img {
+    background-color: #F26938;
+    border-radius: 50%;
+
+}
+
+.headshot {
+    max-width: 300px;   
+    max-height: auto;
+}
+
+
+/* Portfolio Page */
+
+.portfolio-container {
+    background-color: black;
+
+}
+
