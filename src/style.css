@@ -1,5 +1,11 @@
-.body {
-    background-color: #DCC9C2;
+body {
+    background-color: #ffeecc;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 /* About Page */
@@ -8,7 +14,24 @@
     display: flex;
 }
 
+.about-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.about-right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+}
+
 .profile-img {
+    width: 50%;
+    height: auto;
     background-color: #F26938;
     border-radius: 50%;
 
@@ -17,6 +40,7 @@
 .headshot {
     max-width: 300px;   
     max-height: auto;
+    border-radius: 10%;
 }
 
 
@@ -24,6 +48,11 @@
 
 .portfolio-container {
     background-color: black;
-
+    display: flex;
+    width: 90%;
+    height: auto;
 }
 
+.project-card {
+    background-color: white;
+}
