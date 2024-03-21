@@ -1,35 +1,60 @@
+h1 {
+    margin: 0;
+    padding: 0;
+  }
 .navbar {
     height: 12em;  
     background-image: url('/src/assets/DomeBW2.jpg');
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
     align-items: flex-end;
 }
 
 .header-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
     width: 50%;
+    max-height: 100%;
+}
+
+.header {
+    margin-left: .25em;
 }
 
 #header-title {
+    position: absolute;
+    z-index: 1;
     font-family: neue-kabel, sans-serif;
     font-size: 4rem;
     font-weight: bold;
     font-style: normal;
     letter-spacing: .1em;
     color: #ffa600;
+    -webkit-text-stroke: 6px #F26938;
+    /* -webkit-text-stroke: 10px #132857; */
 }
 
-.baseline {
+#header-title-front {
+    position: absolute;
+    z-index: 2;
+    font-family: neue-kabel, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: #132857;
+
+}
+
+.header-right {
     display: flex;
-    align-items: flex-end;
-}
-
-.container-fluid {
-    flex-direction: column;
-    align-items: flex-end !important;
-    justify-content: baseline;
+    justify-content: flex-end;
     width: 50%;
+    max-height: 100%;
 }
 
 .nav-center {
@@ -43,11 +68,9 @@
     font-family: "reross-quadratic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #1A1D26; /* Default color for navigation links */
-    text-decoration: none; /* Remove default underline */
-    transition: color 0.3s ease; /* Smooth transition for color change */
-    /* width: 20%; */
-
+    color: #1A1D26; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 #navspacing {
@@ -73,10 +96,13 @@
   }
 
   .shaded {
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
     border-radius: 25px;
     background-color: #F26938;
     opacity: .85;
-    width: 65%;
+    width: 75%;
   }
 
 
