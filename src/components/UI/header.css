@@ -1,6 +1,6 @@
 .navbar {
     height: 12em;  
-    background-image: url('./src/assets/DomeBW2.jpg');
+    background-image: url('../src/assets/DomeBW2.jpg');
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
