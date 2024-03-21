@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function ContactForm() {
-  // State variables to track form input values and validation status
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");

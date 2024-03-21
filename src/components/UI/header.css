@@ -87,12 +87,12 @@ h1 {
 }
 
   .navbar-brand:hover {
-    color: #1A1D26; /* Color change on hover */
+    color: #1A1D26;
 
   }
   
   .navbar-brand.active {
-    text-decoration: underline; /* Underline the active link */
+    text-decoration: underline; 
   }
 
   .shaded {
