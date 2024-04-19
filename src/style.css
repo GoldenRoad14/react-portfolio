@@ -69,8 +69,10 @@ body {
     border-color: #DCC9C2;
     border-style: solid;
     border-radius: 15px;
-    background-size: cover;
-    overflow: hidden;
+    background-color: #132857;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-card:hover {
@@ -100,6 +102,7 @@ body {
 
 .portfolio-social-icon {
     width: 25%;
+    padding: 5px;
 }
 
 .card-overlay img {
@@ -128,11 +131,16 @@ body {
 }
 
 .proj-5 {
-    background-image: url('./assets/javaquiz_thumb.jpg');
+    background-image: url('./assets/SmokeBox.jpg');
+    background-size: contain;
 }
 
 .proj-6 {
-    background-image: url('./assets/svggen_thumb.jpg');
+    background-image: url('./assets/hamsterbrain.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 /* Contact page */
@@ -203,3 +211,4 @@ body {
     font-size: 14px;
     margin-top: 5px;
   }
+
