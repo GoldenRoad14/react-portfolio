@@ -1,43 +1,39 @@
-import React, { useState } from "react";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { socials } from "../data/socials"; // Assuming socials is exported from "../data/socials"
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
-function ContactForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [nameError, setNameError] = useState("");
-  const [emailError, setEmailError] = useState("");
-  const [messageError, setMessageError] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", { name, email, message });
-  };
-
-  const handleNameChange = (e) => {
-    const value = e.target.value;
-    setName(value);
-    setNameError(value ? "" : "Name is required");
-  };
-
-  const handleEmailChange = (e) => {
-    const value = e.target.value;
-    setEmail(value);
-    const isValidEmail = /\S+@\S+\.\S+/.test(value);
-    setEmailError(isValidEmail ? "" : "Invalid email address");
-  };
-
-  const handleMessageChange = (e) => {
-    const value = e.target.value;
-    setMessage(value);
-    setMessageError(value ? "" : "Message is required");
-  };
-
+const Contact = () => {
   return (
-    <div className="form-container">
-      <div className="form-body m-3 p-3">
-        <form onSubmit={handleSubmit}>
+    <div className="contact-contain">
+      <div className="contact-body m-3 p-3">
+        <div className="contact-title">
+          <h3>Drop me a line!</h3>
+        </div>
+        <div className="contacts">
+          {socials.map((social, index) => (
+            <div key={index} className="social-item">
+              <a href={social.url} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={social.icon} />
+                {/* {social.name} */}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
+
+/* <form onSubmit={handleSubmit}>
           <div>
-            <h3 id="form-title">Drop me a line!</h3>
+            
             <label htmlFor="name">Name:</label><br></br>
             <input
               type="text"
@@ -72,10 +68,4 @@ function ContactForm() {
             <div className="error">{messageError}</div>
           </div>
           <button type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
-  );
-}
-
-export default ContactForm;
+        </form> */

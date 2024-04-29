@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm'
 
 export default function ContactPage() {
     return (
-      <div className="container phones">
+      <div className="contact-container phones">
           <ContactForm />
         </div>
         )}
