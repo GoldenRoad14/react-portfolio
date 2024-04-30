@@ -27,7 +27,7 @@ h1 {
     align-items: flex-start;
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    width: 50%;
+    width: 75%;
     height: 100%;
 };
 }
@@ -65,7 +65,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 50%;
+    width: 25%;
     height: 100%;
     /* margin-bottom: 1em; */
 }
