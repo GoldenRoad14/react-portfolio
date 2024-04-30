@@ -24,7 +24,7 @@ h1 {
 @media screen and (max-width: 600px) {
     .header-left {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 50%;
