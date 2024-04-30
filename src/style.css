@@ -548,6 +548,10 @@ body {
 
 /* MODAL STYLING */
 
+.ReactModal__Overlay {
+  z-index: 1000;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -566,6 +570,7 @@ body {
   bottom: 0;
   margin: auto;
   background-color: #ffeecc !important;
+
 }
 
 .modal-header {
@@ -580,6 +585,7 @@ body {
 
 .modal-container {
   position: relative;
+  z-index: 10;
 }
 
 .modal-content h2 {
@@ -662,7 +668,7 @@ body {
 
   .modal-container {
     position: relative;
-
+ 
     min-height: 60%;
     background-color: #e5d4b3;
     border-radius: 15px;

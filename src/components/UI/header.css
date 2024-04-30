@@ -26,6 +26,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+    flex-wrap: wrap;
     width: 50%;
     height: 100%;
 };
@@ -139,7 +140,7 @@ h1 {
   }
 
   .burgerBox svg {
-    color: white;
+    color: #132857;
   }
 
   .menu-toggle {
