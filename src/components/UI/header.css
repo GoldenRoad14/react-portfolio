@@ -21,7 +21,7 @@ h1 {
     height: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .header-left {
     display: flex;
     align-items: center;
@@ -136,6 +136,10 @@ h1 {
     border: none;
     background-color: transparent;
 
+  }
+
+  .burgerBox svg {
+    color: white;
   }
 
   .menu-toggle {
