@@ -40,7 +40,7 @@ export default function PortfolioPage() {
               <a href={project.githubLink} target="_blank">
                 <img
                   className="portfolio-social-icon"
-                  src="src/assets/github_white_transparent.png"
+                  src="/assets/github_white_transparent.png"
                   alt="GitHub"
                 />
               </a>
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
                 <a href={project.deployedLink} target="_blank">
                   <img
                     className="portfolio-social-icon"
-                    src="src/assets/WebLinkIcon.png"
+                    src="/assets/WebLinkIcon.png"
                     alt="Web Link"
                   />
                 </a>
