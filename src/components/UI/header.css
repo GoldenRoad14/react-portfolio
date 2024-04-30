@@ -1,225 +1,220 @@
 h1 {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 .navbar {
-    height: 12em;  
-    background-image: url('/assets/DomeBW2.jpg');
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+  height: 12em;
+  background-image: url("/assets/DomeBW2.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 .header-left {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    width: 50%;
-    height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  width: 50%;
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
-    .header-left {
+  .header-left {
     display: flex;
     align-items: flex-start;
     flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 75%;
     height: 100%;
-};
+  }
 }
 
 .header {
-    margin-left: .25em;
+  margin-left: 0.25em;
 }
 
 #header-title {
-    position: absolute;
-    z-index: 1;
-    font-family: neue-kabel, sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: .1em;
-    color: #ffa600;
-    -webkit-text-stroke: 6px #F26938;
-    /* -webkit-text-stroke: 10px #132857; */
+  position: absolute;
+  z-index: 1;
+  font-family: neue-kabel, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #ffa600;
+  -webkit-text-stroke: 6px #f26938;
+  /* -webkit-text-stroke: 10px #132857; */
 }
 
 #header-title-front {
-    position: absolute;
-    z-index: 2;
-    font-family: neue-kabel, sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: .1em;
-    color: #132857;
-
+  position: absolute;
+  z-index: 2;
+  font-family: neue-kabel, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #132857;
 }
 
 .header-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 25%;
-    height: 100%;
-    /* margin-bottom: 1em; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 25%;
+  height: 100%;
+  /* margin-bottom: 1em; */
 }
 
 .nav-center {
-
-    justify-content: center;
-    width: 90%;
+  justify-content: center;
+  width: 90%;
 }
 
 .navbar-brand {
-    /* display: flex;
+  /* display: flex;
     justify-content: center; */
-    font-family: "reross-quadratic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.25em;
-    color: #1A1D26; 
-    text-decoration: none; 
-    transition: color 0.3s ease; 
+  font-family: "reross-quadratic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25em;
+  color: #1a1d26;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 #navspacing {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* width: 95%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* width: 95%; */
 }
 
 .header-link {
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    
+  display: flex;
+  justify-content: center;
+  width: 20%;
 }
 
-  .navbar-brand:hover {
-    color: #1A1D26;
+.navbar-brand:hover {
+  color: #1a1d26;
+}
 
-  }
-  
-  .navbar-brand.active {
-    text-decoration: underline; 
-  }
+.navbar-brand.active {
+  text-decoration: underline;
+}
 
-  .shaded {
-    display: flex;
-    justify-content: center;
-    margin-right: 1em;
-    border-radius: 10px;
-    background-color: #F26938;
-    opacity: .85;
-    width: 2.5em;
-    height: 2.5em;
-  }
+.shaded {
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  border-radius: 10px;
+  background-color: #f26938;
+  opacity: 0.85;
+  width: 2.5em;
+  height: 2.5em;
+  z-index: 8;
+}
 /* hamburger menu */
 
-  .burgerBox {
-    /* border: solid #1A1D26 2px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    border-radius: 10px;
-    z-index: 3;
-  }
-  
-  .burgerBox button {
-    
-    border: none;
-    background-color: transparent;
+.burgerBox {
+  /* border: solid #1A1D26 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
 
-  }
+}
 
-  .burgerBox svg {
-    color: #132857;
-  }
+.burgerBox button {
+  border: none;
+  background-color: transparent;
+}
 
-  .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .menu-toggle.active .bar:first-child {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .menu-toggle.active .bar:last-child {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  .menu-toggle.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .bar {
-    width: 25px;
-    height: 2px;
-    background-color: #1A1D26;
-    margin: 3px 0;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: #151619;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 0 0 10px 10px;
-    z-index: 10;
-  }
-  
-  .nav-links.open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5%;
-    right: 0;
-    background-color: #151619;
-    padding: .5em;
-    margin-top: .5em;
-    border-radius: 0 0 10px 10px;
-    z-index: 11;
-    width: 8em;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
-  }
-  
-  .nav-links.closed {
-    display: none;
-  }
-  
-  .nav-links li {
-    margin: 0;
-  }
-  
-  .nav-links li a {
-    color: #ffeecc;
-    padding: 0.5rem;
-    display: block; 
-  }
-  
-  .nav-links li a:hover {
-    color: #f26938;
-  }
-  
-  
-  
+.burgerBox svg {
+  color: #132857;
+}
 
-  /* Color Theme Swatches in Hex */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle.active .bar:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.bar {
+  width: 25px;
+  height: 2px;
+  background-color: #1a1d26;
+  margin: 3px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #151619;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.nav-links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  background-color: #151619;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 0 0 10px 10px;
+
+  width: 8em;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.nav-links.closed {
+  display: none;
+}
+
+.nav-links li {
+  margin: 0;
+
+}
+
+.nav-links li a {
+  color: #ffeecc;
+  padding: 0.5rem;
+  display: block;
+
+}
+
+.nav-links li a:hover {
+  color: #f26938;
+
+}
+
+/* Color Theme Swatches in Hex */
 /* .Stros-1-hex { color: #DCC9C2; } beige
 .Stros-2-hex { color: #1A1D26; } dark gray
 .Stros-3-hex { color: #F26938; } orange
