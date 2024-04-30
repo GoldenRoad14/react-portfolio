@@ -64,7 +64,7 @@ h1 {
 .header-right {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 25%;
     height: 100%;
     /* margin-bottom: 1em; */
