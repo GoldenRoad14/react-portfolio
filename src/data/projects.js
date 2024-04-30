@@ -4,21 +4,21 @@ const projects = [
         description: "This project is designed to provide users that have ADHD with a streamlined and intuitive environment for managing their thoughts, notes, and ideas. Utilized React, Vite, JavaScript, JSON, MongoDB, Apollo Server, JWT, GraphQL, Node & CSS.",
         githubLink: "https://github.com/jskelly8/hamsterBrain",
         deployedLink: "https://hamsterbrain.onrender.com/",
-        backgroundImage: "../../src/assets/hamsterbrain_blue.jpg"
+        backgroundImage: "/assets/hamsterbrain_blue.jpg"
     },
     {
         name: "Blackjack Wild!",
         description: "A full stack blackjack game that uses Javascript, HTML, CSS, Express, Node.js, MySQL, Handlebars.js, Sequelize.",
         githubLink: "https://github.com/Justinh144/BlackJackWild",
         // deployedLink: "",
-        backgroundImage: "../../src/assets/blackjack_thumb.jpg"
+        backgroundImage: "/assets/blackjack_thumb.jpg"
     },
     {
         name: "The Smoke Box Grill Shop",
         description: "This is a website I built for a local business using the SiteSwan platform. In this project I utilized HTML and the Adobe Creative Suite to build out a clean, easy to navigate user interface. Additionally, I did the photography for the store and product images.",
         // githubLink: "",
         deployedLink: "https://thesmokeboxgrillshop.com/",
-        backgroundImage: "../../src/assets/SmokeBox.jpg"
+        backgroundImage: "/assets/SmokeBox.jpg"
     },
     {
         name: "Weather Dashboard",
