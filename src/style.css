@@ -549,23 +549,23 @@ body {
 /* MODAL STYLING */
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
-  border-color: #132857;
-  border-style: solid;
-  border-radius: 15px;
-  padding: 20px;
-  width: 75vw;
-  height: 75vh;
-  position: fixed;
+  border-color: #132857 !important;
+  border-style: solid !important;
+  border-radius: 15px!important;
+  padding: 20px!important;
+  width: 75vw!important;
+  height: 75vh!important;
+  position: fixed!important;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: #ffeecc;
+  background-color: #ffeecc !important;
 }
 
 .modal-header {

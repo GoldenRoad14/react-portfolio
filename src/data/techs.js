@@ -32,11 +32,11 @@ const coding_tech = [
     },
     {
       name: "jQuery",
-      svg: "../src/assets/techicons-06.svg"
+      svg: "/assets/techicons-06.svg"
     },
     {
       name: "JSON",
-      svg: "../src/assets/techicons-07.svg"
+      svg: "/assets/techicons-07.svg"
     },
     {
       name: "REST APIs",
@@ -48,7 +48,7 @@ const coding_tech = [
     },
     {
       name: "Sequelize",
-      svg: "../src/assets/techicons-08.svg"
+      svg: "/assets/techicons-08.svg"
     },
     {
       name: "GraphQL",
@@ -75,23 +75,23 @@ const coding_tech = [
 const other_tech = [
     {
         name: "Photoshop",
-        icon: "../src/assets/AdobeIcons-01.svg"
+        icon: "/assets/AdobeIcons-01.svg"
       },
       {
         name: "Illustrator",
-        icon: "../src/assets/AdobeIcons-02.svg"
+        icon: "/assets/AdobeIcons-02.svg"
       },
       {
         name: "InDesign",
-        icon: "../src/assets/AdobeIcons-03.svg"
+        icon: "/assets/AdobeIcons-03.svg"
       },
       {
         name: "After Effects",
-        icon: "../src/assets/AdobeIcons-04.svg"
+        icon: "/assets/AdobeIcons-04.svg"
       },
       {
         name: "Premier Pro",
-        icon: "../src/assets/AdobeIcons-05.svg"
+        icon: "/assets/AdobeIcons-05.svg"
       }
 ];
 
