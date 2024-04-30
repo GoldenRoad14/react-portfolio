@@ -10,7 +10,7 @@ export default function AboutPage() {
               
             </div>
             <div className="welcome-text">
-              <h5><span className="title">Hello!</span><br></br>My name is Matt and I am a web developer with a background in graphic design and sales across various industries. Please check out my portfolio to see some of the work I've done. </h5>
+              <h5><span className="title">Hello!</span><br></br>I'm a web developer with a background in graphic design and sales across various industries. Please check out my portfolio to see some of the work I've done. </h5>
             </div>
           </div>
           <div className="about-right m-3">
