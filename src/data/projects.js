@@ -15,7 +15,7 @@ const projects = [
     },
     {
         name: "The Smoke Box Grill Shop",
-        description: "This is a website I built for a local business using the SiteSwan platform. In this project I utilized HTML and the Adobe Creative Suite to build out a clean, easy to navigate user interface. Additionally, I did the photography for the store and product images.",
+        description: "This is a website I built for a local business using React. In this project I utilized HTML and the Adobe Creative Suite to build out a clean, easy to navigate user interface. Additionally, I did the photography for the store and product images.",
         // githubLink: "",
         deployedLink: "https://thesmokeboxgrillshop.com/",
         backgroundImage: "/assets/SmokeBox.jpg"
