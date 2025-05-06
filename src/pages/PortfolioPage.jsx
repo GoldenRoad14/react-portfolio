@@ -26,7 +26,22 @@ export default function PortfolioPage() {
 
   return (
     <div className="container pt-4">
-      
+      <div className="portfolio-container gd-container">
+        <h1 className="portfolio-header">Graphic Design & Photography</h1>
+          {graphicDesignProjects.map((project, index) => (
+            <div
+              key={index}
+              className="project-card m-3"
+              style={{ backgroundImage: `url(${project.backgroundImage})` }}
+              onClick={() => openModal(project)}
+            >
+              <div className="card-overlay p-2">
+                <h4 className="card-header">{project.name}</h4>
+                <p>{project.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       <div className="portfolio-container">
       <h1 className="portfolio-header">Web Development</h1>
         {projects.map((project, index) => (
@@ -93,22 +108,7 @@ export default function PortfolioPage() {
       </Modal>
       {/* <div className="gd-container pt-4"> */}
         
-        <div className="portfolio-container gd-container">
-        <h1 className="portfolio-header">Graphic Design & Photography</h1>
-          {graphicDesignProjects.map((project, index) => (
-            <div
-              key={index}
-              className="project-card m-3"
-              style={{ backgroundImage: `url(${project.backgroundImage})` }}
-              onClick={() => openModal(project)}
-            >
-              <div className="card-overlay p-2">
-                <h4 className="card-header">{project.name}</h4>
-                <p>{project.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        
       </div>
     // </div>
   );
