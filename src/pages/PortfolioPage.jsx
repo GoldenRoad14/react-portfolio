@@ -97,12 +97,12 @@ export default function PortfolioPage() {
                       className="modal-img main-image"
                       alt={image.description}
                     />
-                    {/* <p className="slider-img-description">{image.description}</p> */}
+                    <p className="slider-img-description">{image.description}</p>
                   </div>
                 ))}
               </Slider>
             </div>
-            <p className="project-description">{selectedProject.description}</p>
+            {/* <p className="project-description">{selectedProject.description}</p> */}
           </div>
         )}
       </Modal>

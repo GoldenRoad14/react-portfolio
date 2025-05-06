@@ -57,31 +57,40 @@ const graphicDesignProjects = [
             {src: "/assets/graphicdesign/baileson/elKapitan.png", description: "el Kapitan"},
             {src: "/assets/graphicdesign/baileson/Ice.jpg", description: "Crowlers on ice"},
             {src: "/assets/graphicdesign/baileson/momo.png", description: "MoMo"},
-            {src: "/assets/graphicdesign/baileson/Beauhaus3-6-24.jpg", description: "Beauhaus"}
+            {src: "/assets/graphicdesign/baileson/Beauhaus3-6-24.jpg", description: "Beauhaus"},
+            {src: "/assets/graphicdesign/baileson/R House Baseball Card.png", description: "R-House - Rice Baseball Collab"},
+            {src: "/assets/graphicdesign/baileson/masinghorn.jpg", description: "Masinghorn"},
+            {src: "/assets/graphicdesign/baileson/4-15-25.png", description: "\"Strongly Related\""}
         ]
     },
     {
-        name: "Branding Mockups",
-        description: "Branding template mockups for startup concepts.",
-        backgroundImage: "/assets/graphicdesign/branding/LaptopMockUp.jpg",
+        name: "Graphic Design",
+        description: "A mix of my work including social media creatives, branding mockups, infographics, print materials, and logos, showcasing my versatility in bringing business concepts to life.",
+        backgroundImage: "/assets/graphicdesign/branding/mothersday3.png",
         images: [
+            {src: "/assets/graphicdesign/branding/mothersday1.png", description: "Mothers Day Campaign for Rafte Photography"},
+            {src: "/assets/graphicdesign/branding/mothersday2.png", description: "Mothers Day Campaign for Rafte Photography"},
+            {src: "/assets/graphicdesign/branding/socialtemplate.png", description: "LinkedIn Headshot Campaign for Rafte Photography"},
             {src: "/assets/graphicdesign/branding/OCBCBrandingOverview.png", description: "Owl Creek Brewing Mockups"},
-            {src: "/assets/graphicdesign/branding/Sprinklicious.png", description: "Bakery Mockups"}
-        ]
-    },
-    {
-        name: "Logos & Layouts",
-        description: "These are some various logos and layouts I have created for businesses and non-profits utilizing Adobe products.",
-        backgroundImage: "/assets/graphicdesign/logoslayouts/SquareLogoFullColorSticker.png",
-        images: [
-            {src: "/assets/graphicdesign/logoslayouts/BuffBayouOutfitters_white.png", description: ""},
-            {src: "/assets/graphicdesign/logoslayouts/BuffBayouOutfittersHexagon.png", description: ""},
+            {src: "/assets/graphicdesign/logoslayouts/BuffBayouOutfitters_white.png", description: "Buffalo Bayou Outfitters - Logo for an apparel startup"},
             {src: "/assets/graphicdesign/logoslayouts/ChautAquaLogo-Blue.png", description: ""},
             {src: "/assets/graphicdesign/logoslayouts/hamsterbrainlogo_text.png", description: ""},
             {src: "/assets/graphicdesign/logoslayouts/Infographic-Brewery-03.jpg", description: ""},
             {src: "/assets/graphicdesign/logoslayouts/SlideTemplateExamples-01.jpg", description: ""},
-            {src: "/assets/graphicdesign/logoslayouts/Slideshow_Wesley.png", description: ""},
-            {src: "/assets/graphicdesign/logoslayouts/SOT2021Program.png", description: ""}
+            {src: "/assets/graphicdesign/logoslayouts/Slideshow_Wesley.png", description: "Annual Print for Wesley Community Center - Print & Digital"},
+            {src: "/assets/graphicdesign/logoslayouts/SOT2021Program.png", description: "Materials for Social Motion Skills Annual Gala - Print"}
+        ]
+    },
+    {
+        name: "Apparel Design",
+        description: "Browse my apparel designs, featuring custom hats and shirts that blend creativity with style to make a bold statement.",
+        backgroundImage: "/assets/graphicdesign/logoslayouts/baileson_hat2.webp",
+        images: [
+            {src: "/assets/graphicdesign/logoslayouts/baileson_hat2.webp", description: "Baileson Brewing - USA"},
+            {src: "/assets/graphicdesign/logoslayouts/baileson_hat1.webp", description: "Baileson Brewing - Western"},
+            {src: "/assets/graphicdesign/logoslayouts/bailesonshirts.jpg", description: "Baileson Brewing - Vintage & Campaign '24 Shirts"},
+            {src: "/assets/graphicdesign/logoslayouts/StronglyRelatedShirt.jpg", description: "Baileson Brewing - Strongly Related Beer Release Shirt"},
+            {src: "/assets/graphicdesign/logoslayouts/hat_ranger.jpg", description: "Buffalo Bayou Outfitters Logo Hat"},
         ]
     },
     {
